@@ -11,7 +11,6 @@ export class SpeechComponent implements OnInit {
 
   constructor(public speech: SpeechService) {
     this.speech.init();
-    this.speech.error = true;
   }
 
   ngOnInit(): void {
